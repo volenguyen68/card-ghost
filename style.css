@@ -1,0 +1,38 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+/*       background: black; */
+/*       text-align: center; */
+      outline: none;
+    }
+
+    .credit {
+      text-align: center;
+      z-index: 999;
+      font-size: 0.8rem;
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+    }
+    .credit a {
+      color: #fff;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+
+    #world {
+      width: 100%;
+      height: 100vh;
+			      background: black;
+    }
+
+canvas {
+	    left: calc(50% - 325px);
+    position: absolute;
+
+}
